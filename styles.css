@@ -79,3 +79,32 @@ h2 {
 .button:hover {
     background-color: #6c3483;
 }
+/* ID-based styles */
+#home {
+    background-color: #f5e6ff;
+}
+
+#about {
+    background-color: #e6f0ff;
+}
+
+#application {
+    background-color: #e6fff0;
+}
+
+#contact {
+    background-color: #fff0e6;
+}
+
+/* Additional class-based styles */
+.highlight {
+    font-weight: bold;
+    color: #4a0e78;
+}
+
+.info-box {
+    border: 1px solid #8e44ad;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f9f0ff;
+}
