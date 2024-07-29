@@ -43,6 +43,14 @@
         main {
             padding: 2rem;
         }
+        .home-image {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 2rem auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0, 1);
+        }
     </style>
 </head>
 <body>
@@ -51,12 +59,17 @@
     </header>
     <nav>
         <ul>
+            <li><a href="#home">Home</a></li>
             <li><a href="#about">About Us</a></li>
             <li><a href="#application">Adoption Application</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <main>
+        <section id="home">
+            <h2>Welcome to Our Dog Adoption Center</h2>
+            <img src="dogs.jpg" alt="Happy dogs available for adoption" class="home-image">
+        </section>
         <section id="about">
             <h2>About Us</h2>
             <p>We are dedicated to finding loving homes for dogs in need.</p>
