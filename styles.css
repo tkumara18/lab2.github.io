@@ -108,3 +108,36 @@ h2 {
     margin-top: 10px;
     background-color: #f9f0ff;
 }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+td {
+    border: 1px solid #8e44ad;
+    padding: 10px;
+    vertical-align: top;
+}
+
+div.text {
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+div.links {
+    padding: 10px;
+    background-color: #f5e6ff;
+    border-radius: 8px;
+}
+
+a {
+    color: #8e44ad;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
